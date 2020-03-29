@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   
+  <!--  
   <servlet>
      <servlet-name>abc</servlet-name>
      <servlet-class>com.JSP_Tutorial.AddServlet</servlet-class>
@@ -20,4 +21,35 @@
      <servlet-name>pqr</servlet-name>
      <url-pattern>/sq</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>mno</servlet-name>
+     <servlet-class>com.JSP_Tutorial.MyServlet</servlet-class>
+     
+      ===============================================================
+      // Code for ServletConfig which is needed for the accessing
+      
+      <init-param>
+         <param-name>Name<param-name>
+         <param-value>Rahul<param-value>
+      <init-param>
+     =================================================================
+      
+  </servlet>
+  
+  <servlet-mapping>
+     <servlet-name>mno</servlet-name>
+     <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+    <param-name>Name</param-name>
+    <param-value>Maulik</param-value>
+  </context-param>
+  
+  <context-param>
+      <param-name>Phone</param-name>
+      <param-value>Realme1</param-value>
+  </context-param>
+  -->
 </web-app>

@@ -1,11 +1,20 @@
 package com.JSP_Tutorial;
 
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/*
+ * Annotations do the same work as web.xml does but in a short way ,you just have to write 
+ * 
+ * @WebServlet("servlet url pattern")
+ * 
+ * and it will do the work*/
 
+
+@WebServlet("/sq")
 public class SquareServlet extends HttpServlet {
     
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException{
